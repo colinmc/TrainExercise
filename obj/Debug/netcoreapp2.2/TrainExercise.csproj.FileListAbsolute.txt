@@ -1,0 +1,11 @@
+/home/colin/TrainExercise/obj/Debug/netcoreapp2.2/TrainExercise.csprojAssemblyReference.cache
+/home/colin/TrainExercise/obj/Debug/netcoreapp2.2/TrainExercise.csproj.CoreCompileInputs.cache
+/home/colin/TrainExercise/obj/Debug/netcoreapp2.2/TrainExercise.AssemblyInfoInputs.cache
+/home/colin/TrainExercise/obj/Debug/netcoreapp2.2/TrainExercise.AssemblyInfo.cs
+/home/colin/TrainExercise/bin/Debug/netcoreapp2.2/TrainExercise.deps.json
+/home/colin/TrainExercise/bin/Debug/netcoreapp2.2/TrainExercise.runtimeconfig.json
+/home/colin/TrainExercise/bin/Debug/netcoreapp2.2/TrainExercise.runtimeconfig.dev.json
+/home/colin/TrainExercise/bin/Debug/netcoreapp2.2/TrainExercise.dll
+/home/colin/TrainExercise/bin/Debug/netcoreapp2.2/TrainExercise.pdb
+/home/colin/TrainExercise/obj/Debug/netcoreapp2.2/TrainExercise.dll
+/home/colin/TrainExercise/obj/Debug/netcoreapp2.2/TrainExercise.pdb
