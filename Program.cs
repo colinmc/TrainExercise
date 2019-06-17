@@ -1,4 +1,5 @@
-﻿using System.IO;
+﻿using System;
+using System.IO;
 
 namespace TrainExercise
 {
@@ -6,11 +7,14 @@ namespace TrainExercise
     {
         static void Main(string[] args)
         {
-            var trains = File.ReadAllLines("trains_6.csv");
-            foreach (string element in trains){
-                System.Console.WriteLine(element);
+            var maxSpaces = 12;
+            var filePath = @"trains_6.csv";
+
+            var trainScheulde = File.ReadAllLines(filePath);
+            foreach (string train in trainScheulde){
+                var trainList = train.Split(", ");
+                System.Console.WriteLine("{0,-12} {1,-12} {2,-12} {3,-12}", trainList[0], trainList[1], trainList[2], trainList[3]);
             }
-            System.Console.WriteLine(trains[0][0]);
         }
     }
 }
