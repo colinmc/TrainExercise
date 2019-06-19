@@ -1,5 +1,7 @@
 ﻿using System;
 using System.IO;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace TrainExercise
 {
@@ -7,13 +9,16 @@ namespace TrainExercise
     {
         static void Main(string[] args)
         {
-            var maxSpaces = 12;
             var filePath = @"trains_6.csv";
+            string maxWidth = "-12";
+            var rowText = "{0,Width} {1,Width} {2,Width} {3,Width}".Replace("Width",maxWidth);
 
-            var trainScheulde = File.ReadAllLines(filePath);
-            foreach (string train in trainScheulde){
+            var trainSchedule = new List<string>();
+            trainSchedule = File.ReadAllLines(filePath).Distinct().ToList();
+    
+            foreach (string train in trainSchedule){
                 var trainList = train.Split(", ");
-                System.Console.WriteLine("{0,-12} {1,-12} {2,-12} {3,-12}", trainList[0], trainList[1], trainList[2], trainList[3]);
+                System.Console.WriteLine(rowText, trainList[0], trainList[1], trainList[2], trainList[3]);
             }
         }
     }
